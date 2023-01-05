@@ -262,60 +262,72 @@ function ShopUI:onActivateView()
         tab.moveAllButton.enable = true
         tab.moveAllButton:setVisible(true)
         shopItems:clear()
+    
         if not self.viewMode then
-            self.sellCartButton.enable = false
-            self.sellCartButton:setVisible(true)
-            self.buyCartButton.enable = false
-            self.buyCartButton:setVisible(false)
+          self.sellCartButton.enable = false
+          self.sellCartButton:setVisible(true)
+          self.buyCartButton.enable = false
+          self.buyCartButton:setVisible(false)
         end
+    
         local inventory = character:getInventory():getItems()
-        for i = 0, inventory:size() -1 do
+        for i = 0, inventory:size() - 1 do
             local item = inventory:get(i)
             local itemType = item:getFullType()
             local itemSell = Shop.Sell[itemType]
             local isBroken = item:isBroken()
-            if not (Shop.SellisBlacklist and itemSell) then
-                if not (item:isEquipped() or item:isFavorite() or Currency.Coins[itemType]) then
-                    if not (itemSell and itemSell.blacklisted) then
-                        local v = {}
-                        v.type = itemType
-                        local price = Shop.defaultPrice
-                        if isBroken then price = Shop.defaultPriceBroken end
-                        if itemSell then
-                            v.specialCoin = itemSell.specialCoin
-                            if isBroken then
-                                price = itemSell.priceBroken or Shop.defaultPriceBroken
-                            else
-                                price = itemSell.price or Shop.defaultPrice
-                            end
-                        end
-                        v.priceFull = price
-                        price = Nfunction.drainablePrice(item,price)
-                        v.price = price
-                        v.id = item:getID()
-                        v.name = Nfunction.trimString(item:getName(),42)
-                        v.invItem = item
-                        if price > 0 then
-                            if Shop.SellisWhitelist then 
-                                if itemSell then
-                                    shopItems:addItem(itemType,v);
-                                end
-                            else
-                                shopItems:addItem(itemType,v);
-                            end
-                        end
-                    end
+            local playerFaction = Faction.getPlayerFaction(getPlayer())
+            local playerFactionName = playerFaction and playerFaction:getName() 
+            if itemSell and itemSell.faction then
+              -- Check if playerFactionName is in the list of allowed factions for the item
+              local allowed = false
+              for _, allowedFaction in pairs(itemSell.faction) do
+                if allowedFaction == playerFactionName then
+                  allowed = true
+                  break
                 end
+              end
+              if allowed and not (item:isEquipped() or item:isFavorite() or Currency.Coins[itemType]) then
+                local v = {}
+                v.type = itemType
+                local price = Shop.defaultPrice
+                if isBroken then
+                  price = Shop.defaultPriceBroken
+                end
+                if itemSell then
+                  v.specialCoin = itemSell.specialCoin
+                  if isBroken then
+                    price = itemSell.priceBroken or Shop.defaultPriceBroken
+                  else
+                    price = itemSell.price or Shop.defaultPrice
+                  end
+                end
+                v.priceFull = price
+                price = Nfunction.drainablePrice(item, price)
+                v.price = price
+                v.id = item:getID()
+                v.name = Nfunction.trimString(item:getName(), 42)
+                v.invItem = item
+          
+                if price > 0 then
+                  if Shop.SellisWhitelist then
+                    if itemSell then
+                      shopItems:addItem(itemType, v)
+                    end
+                  else
+                    shopItems:addItem(itemType, v)
+                end
+              end
             end
+          end
         end
-        return
-    else
+      else
         if self.sellCartButton then
-            self.sellCartButton.enable = false
-            self.sellCartButton:setVisible(false)
-            self.buyCartButton:setVisible(true)
+          self.sellCartButton.enable = false
+          self.sellCartButton:setVisible(false)
+          self.buyCartButton:setVisible(true)
         end
-    end
+      end
 
     if tabType == Tab.Favorite then
         shopItems:clear()

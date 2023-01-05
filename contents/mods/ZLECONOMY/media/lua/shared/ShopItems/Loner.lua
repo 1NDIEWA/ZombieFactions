@@ -2,6 +2,14 @@
 		tab = Tab.Loner, price = 450,
 	}	
 
+	Shop.Items["Base.Wallet"] = {
+		tab = Tab.Loner, price = 20,
+	}	
+
+	Shop.Items["Base.Canteenfull"] = {
+		tab = Tab.Loner, price = 145,
+	}	
+
 	Shop.Items["Base.WalkieTalkie5"] = {
 		tab = Tab.Loner, price = 120,
 	}	
