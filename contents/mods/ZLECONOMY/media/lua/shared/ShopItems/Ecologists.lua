@@ -70,6 +70,38 @@ Shop.Items["Base.OvercoatWhite"] = {
 	tab = Tab.Ecologist, price =290,
 }
 
+Shop.Items["Base.ExohelmetEco"] = {
+	tab = Tab.Ecologist, price = 6500,
+}
+
+Shop.Items["Base.ExoskeletonEco"] = {
+	tab = Tab.Ecologist, price = 20000,
+}
+
+Shop.Items["Base.ExoBackpackEco"] = {
+	tab = Tab.Ecologist, price = 10000,
+}
+
+Shop.Items["Base.ExosuitBootsEco"] = {
+	tab = Tab.Ecologist, price = 2500,
+}
+
+Shop.Items["Base.ExosuitVestEco"] = {
+	tab = Tab.Ecologist, price = 6500,
+}
+
+Shop.Items["Base.ExosuitGlovesEco"] = {
+	tab = Tab.Ecologist, price = 2000,
+}
+
+Shop.Items["Base.ExosuitJacketEco"] = {
+	tab = Tab.Ecologist, price = 4500,
+}
+
+Shop.Items["Base.ExosuitPantsEco"] = {
+	tab = Tab.Ecologist, price = 4500,
+}
+
 Shop.Items["Base.SEVAHelmEcologists"] = {
 	tab = Tab.Ecologist, price =4500,
 }
@@ -143,7 +175,7 @@ Shop.Items["PinkSlip.82jeepJ10t"] = {
 }
 
 Shop.Items["PinkSlip.SmallCar"] = {
-	tab = Tab.Ecologist, price = 350,
+	tab = Tab.Ecologist, price = 500,
 }
 
 Shop.Items["PinkSlip.StepVan"] = {
@@ -155,7 +187,7 @@ Shop.Items["PinkSlip.Van_Transit"] = {
 }
 
 Shop.Items["PinkSlip.tdm_peel_p50"] = {
-	tab = Tab.Ecologist, price = 350,
+	tab = Tab.Ecologist, price = 450,
 }
 
 Shop.Items["PinkSlip.FJ75PC"] = {
@@ -164,6 +196,10 @@ Shop.Items["PinkSlip.FJ75PC"] = {
 
 Shop.Items["PinkSlip.McLarenF1"] = {
 	tab = Tab.Ecologist, price = 600000,
+}
+
+Shop.Items["PinkSlip.k153emer"] = {
+	tab = Tab.Ecologist, price = 9000,
 }
 
 Shop.Items["Base.EngineDoor1"] = {

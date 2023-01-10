@@ -30,6 +30,38 @@ Shop.Items["Base.Pistol3"] = {
 	tab = Tab.Mercs, price = 1000,
 }
 
+Shop.Items["Base.ExohelmetMercs"] = {
+	tab = Tab.Mercs, price = 6500,
+}
+
+Shop.Items["Base.ExoskeletonMercs"] = {
+	tab = Tab.Mercs, price = 20000,
+}
+
+Shop.Items["Base.ExoBackpackMercs"] = {
+	tab = Tab.Mercs, price = 10000,
+}
+
+Shop.Items["Base.ExosuitBootsMercs"] = {
+	tab = Tab.Mercs, price = 2500,
+}
+
+Shop.Items["Base.ExosuitVestMercs"] = {
+	tab = Tab.Mercs, price = 6500,
+}
+
+Shop.Items["Base.ExosuitGlovesMercs"] = {
+	tab = Tab.Mercs, price = 2000,
+}
+
+Shop.Items["Base.ExosuitJacketMercs"] = {
+	tab = Tab.Mercs, price = 4500,
+}
+
+Shop.Items["Base.ExosuitPantsMercs"] = {
+	tab = Tab.Mercs, price = 4500,
+}
+
 Shop.Items["Base.44Clip"] = {
 	tab = Tab.Mercs, price = 200,
 }

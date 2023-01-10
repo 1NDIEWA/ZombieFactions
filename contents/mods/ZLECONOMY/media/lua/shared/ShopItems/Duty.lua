@@ -2,12 +2,20 @@ Shop.Items["Base.PatchDuty"] = {
 	tab = Tab.Duty, price =1,
 }
 
-Shop.Items["Base.Pot"] = {
-	tab = Tab.Freedom, price = 150,
-}
-
 Shop.Items["PinkSlip.67commandoPolice"] = {
 	tab = Tab.Duty, price = 85000,
+}
+
+Shop.Items["PinkSlip.70dodgePD"] = {
+	tab = Tab.Duty, price = 2400,
+}
+
+Shop.Items["PinkSlip.k153police"] = {
+	tab = Tab.Duty, price = 8500,
+}
+
+Shop.Items["PinkSlip.gaztigr"] = {
+	tab = Tab.Duty, price = 1750,
 }
 
 Shop.Items["Base.Sphereo8MaskDuty"] = {
@@ -26,8 +34,36 @@ Shop.Items["Base.PBF1Duty"] = {
 	tab = Tab.Duty, price =120,
 }
 
+Shop.Items["Base.ExohelmetDuty"] = {
+	tab = Tab.Duty, price = 6500,
+}
+
+Shop.Items["Base.ExoskeletonDuty"] = {
+	tab = Tab.Duty, price = 20000,
+}
+
+Shop.Items["Base.ExoBackpackDuty"] = {
+	tab = Tab.Duty, price = 10000,
+}
+
+Shop.Items["Base.ExosuitBootsDuty"] = {
+	tab = Tab.Duty, price = 2500,
+}
+
+Shop.Items["Base.ExosuitVestDuty"] = {
+	tab = Tab.Duty, price = 6500,
+}
+
 Shop.Items["Base.ExosuitGlovesDuty"] = {
-	tab = Tab.Duty, price =195,
+	tab = Tab.Duty, price = 2000,
+}
+
+Shop.Items["Base.ExosuitJacketDuty"] = {
+	tab = Tab.Duty, price = 4500,
+}
+
+Shop.Items["Base.ExosuitPantsDuty"] = {
+	tab = Tab.Duty, price = 4500,
 }
 
 Shop.Items["Base.skat9vestduty"] = {

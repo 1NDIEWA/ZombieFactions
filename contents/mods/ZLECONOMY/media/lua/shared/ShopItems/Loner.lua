@@ -10,11 +10,11 @@
 		tab = Tab.Loner, price = 145,
 	}	
 
-	Shop.Items["Base.WalkieTalkie5"] = {
+	Shop.Items["Radio.WalkieTalkie4"] = {
 		tab = Tab.Loner, price = 120,
 	}	
 
-	Shop.Items["Base.Key1"] = {
+	Shop.Items["Base.BlankHouseKey"] = {
 		tab = Tab.Loner, price = 200,
 	}	
 
@@ -142,10 +142,6 @@
 		tab = Tab.Loner, price = 1200,
 	}
 	
-	Shop.Items["Base.SlingAalt"] = {
-		tab = Tab.Loner, price = 2500,
-	}
-
 	Shop.Items["Base.TCVinylplayer"] = {
 		tab = Tab.Loner, price = 5000,
 	}
