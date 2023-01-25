@@ -69,6 +69,7 @@ Tab["Hobo"] = "Hobo"
 Tab["Mercs"] = "Mercs"
 Tab["Loner"] = "Loner"
 Tab["Ecologist"] = "Ecologist"
+Tab["Bartender"] = "Bartender"
 
 Shop.Tabs[Tab.Loner] = getText("Loner")
 Shop.Tabs[Tab.Favorite] = getText("IGUI_Tab_Favorite")
@@ -82,3 +83,5 @@ Shop.Tabs[Tab.Hobo] = getText("Hobo")
 Shop.Tabs[Tab.Mercs] = getText("Mercs")
 Shop.Tabs[Tab.Monolith] = getText("Monolith")
 Shop.Tabs[Tab.Ecologist] = getText("Ecologist")
+Shop.Tabs[Tab.Bartender] = getText("Bartender")
+

@@ -1,21 +1,53 @@
-Shop.Items["Base.PatchFreedom"] = {
-	tab = Tab.Freedom, price =1,
+Shop.Items["BasementMod.BasementMag_medium"] = {
+	tab = Tab.Freedom, price =75000,
 }
 
-Shop.Items["Movables.camo_netting_0"] = {
-	tab = Tab.Freedom, price = 95 ,
+Shop.Items["SkillMag.SkillMagForaging"] = {
+	tab = Tab.Freedom, price = 10000 ,
 }
 
-Shop.Items["Greenfire.SpaceBlunt"] = {
-	tab = Tab.Freedom, price = 150 ,
+Shop.Items["SkillMag.SkillMagCarpentry"] = {
+	tab = Tab.Freedom, price = 10000 ,
 }
 
-Shop.Items["Base.Pot"] = {
-	tab = Tab.Freedom, price = 99,
+Shop.Items["PinkSlip.k153"] = {
+	tab = Tab.Freedom, price = 14000,
+}
+
+Shop.Items["PinkSlip.fhqonevia"] = {
+	tab = Tab.Freedom, price = 20000,
+}
+
+Shop.Items["PinkSlip.fhqLM002"] = {
+	tab = Tab.Freedom, price = 4500,
+}
+
+Shop.Items["PinkSlip.fhqLM002Estate"] = {
+	tab = Tab.Freedom, price = 3500,
+}
+
+Shop.Items["PinkSlip.86Bounder"] = {
+	tab = Tab.Freedom, price = 90000,
+}
+
+Shop.Items["PinkSlip.ATASchoolBus"] = {
+	tab = Tab.Freedom, price = 40000,
 }
 
 Shop.Items["Base.M16A2"] = {
 	tab = Tab.Freedom, price = 4000,
+}
+
+Shop.Items["Base.SV98"] = {
+	tab = Tab.Freedom, price = 9500,
+}
+
+Shop.Items["Base.VSS"] = {
+	tab = Tab.Freedom, price = 2600,
+}
+
+Shop.Items["Base.939Clip10"] = {
+	tab = Tab.Freedom, price = 950,
 }
 
 Shop.Items["Base.556Clip"] = {
@@ -24,6 +56,26 @@ Shop.Items["Base.556Clip"] = {
 
 Shop.Items["Base.556Box"] = {
 	tab = Tab.Freedom, price = 165,
+}
+
+Shop.Items["Base.SlingAalt3"] = {
+	tab = Tab.Freedom, price = 1200,
+}
+
+Shop.Items["Movables.camo_netting_0"] = {
+	tab = Tab.Freedom, price = 95 ,
+}
+
+Shop.Items["Base.Military_Ghillie_Hat_Mask"] = {
+	tab = Tab.Freedom, price =1000,
+}
+
+Shop.Items["Base.Military_Ghillie"] = {
+	tab = Tab.Freedom, price =1500,
+}
+
+Shop.Items["Base.PatchFreedom"] = {
+	tab = Tab.Freedom, price =1,
 }
 
 Shop.Items["Base.BerrilShirtFreedom"] = {
@@ -142,16 +194,16 @@ Shop.Items["Base.windoffreedompants"] = {
 	tab = Tab.Freedom, price =250,
 }
 
-Shop.Items["Base.SlingAalt3"] = {
-	tab = Tab.Freedom, price =450,
+Shop.Items["Greenfire.SpaceBlunt"] = {
+	tab = Tab.Freedom, price = 150 ,
 }
 
-Shop.Items["Greenfire.CannabisBagSeed"] = {
-	tab = Tab.Freedom, price = 2500,
+Shop.Items["Greenfire.Joint"] = {
+	tab = Tab.Freedom, price = 99,
 }
 
-Shop.Items["Greenfire.RollingPapers"] = {
-	tab = Tab.Freedom, price = 5,
+Shop.Items["Greenfire.OzCannabis"] = {
+	tab = Tab.Freedom, price = 4000,
 }
 
 Shop.Items["Greenfire.GFGrinder"] = {
@@ -162,12 +214,16 @@ Shop.Items["Greenfire.Bong_black"] = {
 	tab = Tab.Freedom, price = 1200,
 }
 
-Shop.Items["Greenfire.Joint"] = {
-	tab = Tab.Freedom, price = 99,
+Shop.Items["Greenfire.RollingPapers"] = {
+	tab = Tab.Freedom, price = 5,
 }
 
-Shop.Items["Greenfire.OzCannabis"] = {
-	tab = Tab.Freedom, price = 4000,
+Shop.Items["Greenfire.CannabisBagSeed"] = {
+	tab = Tab.Freedom, price = 2500,
+}
+
+Shop.Items["Base.Pot"] = {
+	tab = Tab.Freedom, price = 99,
 }
 
 Shop.Items["Base.Mov_PaintingGreen"] = {
@@ -194,23 +250,66 @@ Shop.Items["Base.Mov_PaintingBetty"] = {
 	tab = Tab.Freedom, price = 450,
 }
 
-Shop.Items["PinkSlip.k153"] = {
-	tab = Tab.Freedom, price = 9500,
+Shop.Items["Base.Bag_Savotta"] = {
+	tab = Tab.Freedom, price = 980,
 }
 
-Shop.Items["PinkSlip.fhqonevia"] = {
-	tab = Tab.Freedom, price = 20000,
+Shop.Items["Base.Bag_ZIP"] = {
+	tab = Tab.Freedom, price = 1400,
 }
 
-Shop.Items["PinkSlip.fhqLM002"] = {
-	tab = Tab.Freedom, price = 3500,
+Shop.Items["Base.Bag_Hazard_Cross"] = {
+	tab = Tab.Freedom, price = 759,
 }
 
-Shop.Items["PinkSlip.fhqLM002Estate"] = {
-	tab = Tab.Freedom, price = 1950,
+Shop.Items["Base.Hat_Raccoon"] = {
+	tab = Tab.Freedom, price = 50,
 }
 
-Shop.Items["PinkSlip.ATA_Bus"] = {
-	tab = Tab.Freedom, price = 10000,
+Shop.Items["Base.Hat_Sam_NV"] = {
+	tab = Tab.Freedom, price = 300,
 }
+
+Shop.Items["Base.Scarf_Mask_Camo_On"] = {
+	tab = Tab.Freedom, price = 300,
+}
+
+Shop.Items["Base.Scarf_Mask_Hunting_ON"] = {
+	tab = Tab.Freedom, price = 260,
+}
+
+Shop.Items["Base.Trench_Grenade_Pack"] = {
+	tab = Tab.Freedom, price = 450,
+}
+
+Shop.Items["Base.Trench_Ammo_Pack"] = {
+	tab = Tab.Freedom, price = 1100,
+}
+
+Shop.Items["Base.Trench_Tornister"] = {
+	tab = Tab.Freedom, price = 450,
+}
+
+Shop.Items["Base.Bag_Bush"] = {
+	tab = Tab.Freedom, price = 800,
+}
+
+Shop.Items["Base.Bag_Sniper_Suit"] = {
+	tab = Tab.Freedom, price = 950,
+}
+
+Shop.Items["Base.Car15D"] = {
+	tab = Tab.Freedom, price = 1500,
+}
+
+Shop.Items["Base.Bushcraft_Bag"] = {
+	tab = Tab.Freedom, price = 850,
+}
+
+Shop.Items["Base.Bag_D3M"] = {
+	tab = Tab.Freedom, price = 1200,
+}
+
+
+
 

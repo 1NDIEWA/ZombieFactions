@@ -1,5 +1,5 @@
-    Shop.Items["Onifurniture.SmallMetalBox"] = {
-		tab = Tab.Loner, price = 450,
+    Shop.Items["Onifurniture.BlackMetalBox"] = {
+		tab = Tab.Loner, price = 800,
 	}	
 
 	Shop.Items["Base.Wallet"] = {
@@ -8,6 +8,10 @@
 
 	Shop.Items["Base.Canteenfull"] = {
 		tab = Tab.Loner, price = 145,
+	}	
+
+	Shop.Items["AuthenticZClothing.AuntheticGlowstick_Green"] = {
+		tab = Tab.Loner, price = 45,
 	}	
 
 	Shop.Items["Radio.WalkieTalkie4"] = {
@@ -19,11 +23,11 @@
 	}	
 
 	Shop.Items["Base.TvBlack"] = {
-		tab = Tab.Loner, price = 120,
+		tab = Tab.Loner, price = 280,
 	}	
 
 	Shop.Items["Base.TvWideScreen"] = {
-		tab = Tab.Loner, price = 240,
+		tab = Tab.Loner, price = 450,
 	}	
 
 	Shop.Items["Base.GPSdayz"] = {
@@ -31,11 +35,11 @@
 	}	
 
 	Shop.Items["Onifurniture.LargeMetalBox"] = {
-		tab = Tab.Loner, price = 20000,
+		tab = Tab.Loner, price = 19000,
 	}	
 
 	Shop.Items["Base.SkillRecoveryJournal"] = {
-		tab = Tab.Loner, price = 100,
+		tab = Tab.Loner, price = 420,
 	}
 
 	Shop.Items["Base.RespiratorSilverNoFilter"] = {
@@ -75,7 +79,7 @@
 	}
 
 	Shop.Items["Base.Saw"] = {
-		tab = Tab.Loner, price = 200,
+		tab = Tab.Loner, price = 400,
 	}
 	
 	Shop.Items["Base.HolsterSimple"] = {
@@ -87,13 +91,17 @@
 	}
 	
 	Shop.Items["Base.Revolver_Short"] = {
-		tab = Tab.Loner, price = 150,
+		tab = Tab.Loner, price = 250,
 	}
 
 	Shop.Items["Base.DoubleBarrelShotgun"] = {
-		tab = Tab.Loner, price = 200,
+		tab = Tab.Loner, price = 600,
 	}
 	
+	Shop.Items["stalker.EchoDetector"] = {
+		tab = Tab.Loner, price =140,
+	}
+
 	Shop.Items["Base.Bullets38"] = {
 		tab = Tab.Loner, price = 15,
 	}

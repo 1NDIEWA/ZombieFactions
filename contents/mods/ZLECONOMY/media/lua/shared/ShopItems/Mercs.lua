@@ -2,6 +2,22 @@ Shop.Items["Base.M40GasMaskNoFilter"] = {
 	tab = Tab.Mercs, price = 760,
 }
 
+Shop.Items["BasementMod.BasementMag_small"] = {
+	tab = Tab.Mercs, price =50000,
+}
+
+Shop.Items["PinkSlip.Trailer_Camper"] = {
+	tab = Tab.Mercs, price = 45000,
+}
+
+Shop.Items["SkillMag.SkillMagMaintenance"] = {
+	tab = Tab.Mercs, price = 10000 ,
+}
+
+Shop.Items["SkillMag.SkillMagTailoring"] = {
+	tab = Tab.Mercs, price = 10000 ,
+}
+
 Shop.Items["Base.PatchMercenaries"] = {
 	tab = Tab.Mercs, price = 20,
 }

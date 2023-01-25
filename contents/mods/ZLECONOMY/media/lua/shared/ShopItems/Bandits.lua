@@ -1,9 +1,29 @@
+Shop.Items["Base.PokerChips"] = {
+	tab = Tab.Bandits, price = 1 ,
+}
+
 Shop.Items["Base.PPM88NoFilter"] = {
 	tab = Tab.Bandits, price = 650 ,
 }
 
+Shop.Items["SkillMag.SkillMagBlunt"] = {
+	tab = Tab.Bandits, price = 900 ,
+}
+
+Shop.Items["SkillMag.SkillMagBlade"] = {
+	tab = Tab.Bandits, price = 900,
+}
+
+Shop.Items["SkillMag.SkillMagSneaking"] = {
+	tab = Tab.Bandits, price = 1000 ,
+}
+
 Shop.Items["PinkSlip.CarNormal"] = {
 	tab = Tab.Bandits, price = 400,
+}
+
+Shop.Items["PinkSlip.TrailerHome"] = {
+	tab = Tab.Bandits, price = 45000,
 }
 
 Shop.Items["PinkSlip.AMC_harley"] = {
@@ -23,7 +43,15 @@ Shop.Items["PinkSlip.AMC_quad"] = {
 }
 
 Shop.Items["PinkSlip.70dodgeTA"] = {
-	tab = Tab.Bandits, price = 1500,
+	tab = Tab.Bandits, price = 4500,
+}
+
+Shop.Items["Autotsar.ATAMotoBagBMW1"] = {
+	tab = Tab.Bandits, price = 300,
+}
+
+Shop.Items["Autotsar.ATAMotoBagBMW2"] = {
+	tab = Tab.Bandits, price = 450,
 }
 
 Shop.Items["Base.Jumpstarter"] = {
@@ -38,12 +66,36 @@ Shop.Items["Base.Mossberg500Tactical"] = {
 	tab = Tab.Bandits, price = 500,
 }
 
-Shop.Items["Base.LAW12"] = {
-	tab = Tab.Bandits, price = 360 ,
+Shop.Items["Base.Saiga12"] = {
+	tab = Tab.Bandits, price = 5500 ,
 }
 
-Shop.Items["Base.Mac10"] = {
+Shop.Items["Base.AK47Folded"] = {
+	tab = Tab.Freedom, price = 4200,
+}
+
+Shop.Items["Base.762Clip"] = {
+	tab = Tab.Bandits, price = 1500, 
+}
+
+Shop.Items["Base.12Clip5"] = {
 	tab = Tab.Bandits, price = 550,
+}
+
+Shop.Items["Base.Coupled762"] = {
+	tab = Tab.Bandits, price = 1500,
+}
+
+Shop.Items["Base.PKM"] = {
+	tab = Tab.Bandits, price = 95000,
+}
+
+Shop.Items["Base.762box100"] = {
+	tab = Tab.Bandits, price = 3400,
+}
+
+Shop.Items["Base.MP5SD"] = {
+	tab = Tab.Bandits, price = 999,
 }
 
 Shop.Items["UndeadSurvivor.HeadhunterRifle"] = {
@@ -56,6 +108,10 @@ Shop.Items["Base.PipeBomb"] = {
 
 Shop.Items["Base.9mmClip"] = {
 	tab = Tab.Bandits, price = 100,
+}
+
+Shop.Items["Base.9mmClip30"] = {
+	tab = Tab.Bandits, price = 230,
 }
 
 Shop.Items["Base.Mac10Mag"] = {
@@ -286,6 +342,14 @@ Shop.Items["Base.Killa_Jacket"] = {
 	tab = Tab.Bandits, price = 1500,
 }
 
+Shop.Items["Base.SkullHalfMask"] = {
+	tab = Tab.Bandits, price = 250,
+}
+
+Shop.Items["Base.CBX_Glasses_1"] = {
+	tab = Tab.Bandits, price = 120,
+}
+
 Shop.Items["Base.Killa_Pants"] = {
 	tab = Tab.Bandits, price = 1500,
 }
@@ -304,4 +368,16 @@ Shop.Items["DrugMod.Crack"] = {
 
 Shop.Items["DrugMod.CrackPipe"] = {
 	tab = Tab.Bandits, price = 140 ,
+}
+
+Shop.Items["BatesMetalicos.Bgrip"] = {
+	tab = Tab.Bandits, price = 400,
+}
+
+Shop.Items["BatesMetalicos.Bsock"] = {
+	tab = Tab.Bandits, price = 400,
+}
+
+Shop.Items["BatesMetalicos.MetalBaseballBat"] = {
+	tab = Tab.Bandits, price = 1500,
 }

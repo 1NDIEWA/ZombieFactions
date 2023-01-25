@@ -10,12 +10,20 @@ Shop.Items["PinkSlip.70dodgePD"] = {
 	tab = Tab.Duty, price = 2400,
 }
 
+Shop.Items["SkillMag.SkillMagAmmoReloading"] = {
+	tab = Tab.Duty, price = 10000,
+}
+
+Shop.Items["SkillMag.SkillMagHunting"] = {
+	tab = Tab.Duty, price = 10000,
+}
+
 Shop.Items["PinkSlip.k153police"] = {
 	tab = Tab.Duty, price = 8500,
 }
 
 Shop.Items["PinkSlip.gaztigr"] = {
-	tab = Tab.Duty, price = 1750,
+	tab = Tab.Duty, price = 2900,
 }
 
 Shop.Items["Base.Sphereo8MaskDuty"] = {
@@ -32,6 +40,10 @@ Shop.Items["Base.CS2TPants"] = {
 
 Shop.Items["Base.PBF1Duty"] = {
 	tab = Tab.Duty, price =120,
+}
+
+Shop.Items["Base.SET_Armor_FULL"] = {
+	tab = Tab.Duty, price = 12000,
 }
 
 Shop.Items["Base.ExohelmetDuty"] = {
@@ -106,20 +118,28 @@ Shop.Items["Base.G17"] = {
 	tab = Tab.Duty, price =350,
 }
 
+Shop.Items["Base.IceHockeyStick"] = {
+	tab = Tab.Duty, price =230,
+}
+
 Shop.Items["Base.Glock17Mag"] = {
 	tab = Tab.Duty, price =150,
 }
 
 Shop.Items["Base.AK47"] = {
-	tab = Tab.Duty, price =950,
+	tab = Tab.Duty, price =1600,
 }
 
-Shop.Items["Base.AK_Mag"] = {
-	tab = Tab.Duty, price =120,
+Shop.Items["Base.762Clip"] = {
+	tab = Tab.Duty, price = 750, quantity = 1,
 }
 
-Shop.Items["Base.762x39Box"] = {
-	tab = Tab.Duty, price =120,
+Shop.Items["Base.Coupled762"] = {
+	tab = Tab.Duty, price = 890, quantity = 1,
+}
+
+Shop.Items["Base.762Box"] = {
+	tab = Tab.Duty, price = 320, quantity = 1,
 }
 
 Shop.Items["PinkSlip.gaztigr"] = {
@@ -153,3 +173,44 @@ Shop.Items["Base.Canteen"] = {
 Shop.Items["PinkSlip.isoContainer2"] = {
 	tab = Tab.Duty, price = 5000,
 }
+
+Shop.Items["Base.Rig_Smersh_C"] = {
+	tab = Tab.Duty, price = 1500,
+}
+
+Shop.Items["Base.Rig_Smersh_B"] = {
+	tab = Tab.Duty, price = 1500,
+}
+
+Shop.Items["Base.Rig_Smersh_A"] = {
+	tab = Tab.Duty, price = 1500,
+}
+
+Shop.Items["Base.Rig_Smersh"] = {
+	tab = Tab.Duty, price = 1500,
+}
+
+Shop.Items["Base.SovietPMG"] = {
+	tab = Tab.Duty, price = 1200,
+}
+
+Shop.Items["Base.Chempak_Tychem_On"] = {
+	tab = Tab.Duty, price = 780,
+}
+
+Shop.Items["Base.SHMS_Gasmask_Set"] = {
+	tab = Tab.Duty, price = 1600,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

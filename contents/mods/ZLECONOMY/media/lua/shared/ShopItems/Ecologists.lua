@@ -1,3 +1,15 @@
+Shop.Items["BasementMod.BasementMag_large"] = {
+	tab = Tab.Ecologist, price =150000,
+}
+
+Shop.Items["SkillMag.SkillMagFirstAid"] = {
+	tab = Tab.Ecologist, price = 10000,
+}
+
+Shop.Items["SkillMag.SkillMagLightFoot"] = {
+	tab = Tab.Ecologist, price = 10000,
+}
+
 Shop.Items["LabItems.CmpTestTubeWithAntibodies"] = {
 	tab = Tab.Ecologist, price =200,
 }
@@ -42,10 +54,6 @@ Shop.Items["Base.PatchEcologists"] = {
 	tab = Tab.Ecologist, price =20,
 }
 
-Shop.Items["Pseudonymous.Pseudomectin"] = {
-	tab = Tab.Ecologist, price =600,
-}
-
 Shop.Items["CanteensAndBottles.MedicalCanteenWhiteGreenWater"] = {
 	tab = Tab.Ecologist, price =450,
 }
@@ -63,7 +71,7 @@ Shop.Items["Base.AlcoholBandage"] = {
 }
 
 Shop.Items["stalker.EchoDetector"] = {
-	tab = Tab.Ecologist, price =140,
+	tab = Tab.Ecologist, price =140, quantity = 1
 }
 
 Shop.Items["Base.OvercoatWhite"] = {
@@ -163,35 +171,35 @@ Shop.Items["Base.SEVAGloves"] = {
 }
 
 Shop.Items["PinkSlip.Trailer"] = {
-	tab = Tab.Ecologist, price =1200,
+	tab = Tab.Ecologist, price =2500,
 }
 
 Shop.Items["PinkSlip.HEMTTFuel"] = {
-	tab = Tab.Ecologist, price =25000,
+	tab = Tab.Ecologist, price =40000,
 }
 
 Shop.Items["PinkSlip.82jeepJ10t"] = {
-	tab = Tab.Ecologist, price =1750,
+	tab = Tab.Ecologist, price =5600,
 }
 
 Shop.Items["PinkSlip.SmallCar"] = {
-	tab = Tab.Ecologist, price = 500,
+	tab = Tab.Ecologist, price = 1200,
 }
 
 Shop.Items["PinkSlip.StepVan"] = {
-	tab = Tab.Ecologist, price = 950,
+	tab = Tab.Ecologist, price = 2000,
 }
 
 Shop.Items["PinkSlip.Van_Transit"] = {
-	tab = Tab.Ecologist, price = 750,
+	tab = Tab.Ecologist, price = 1799,
 }
 
 Shop.Items["PinkSlip.tdm_peel_p50"] = {
-	tab = Tab.Ecologist, price = 450,
+	tab = Tab.Ecologist, price = 1000,
 }
 
 Shop.Items["PinkSlip.FJ75PC"] = {
-	tab = Tab.Ecologist, price = 1500,
+	tab = Tab.Ecologist, price = 4500,
 }
 
 Shop.Items["PinkSlip.McLarenF1"] = {
