@@ -126,7 +126,7 @@ Shop.Items["Base.Glock17Mag"] = {
 	tab = Tab.Duty, price =150,
 }
 
-Shop.Items["Base.CAR15D"] = {
+Shop.Items["Base.CAR15"] = {
 	tab = Tab.Duty, price =3200,
 }
 
