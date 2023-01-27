@@ -34,7 +34,7 @@ Shop.Items["PinkSlip.86Bounder"] = {
 	tab = Tab.Freedom, price = 90000,
 }
 
-Shop.Items["PinkSlip.ATASchoolBus"] = {
+Shop.Items["PinkSlip.ATA_SchoolBus"] = {
 	tab = Tab.Freedom, price = 40000,
 }
 
