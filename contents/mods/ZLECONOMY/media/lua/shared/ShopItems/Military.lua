@@ -70,19 +70,12 @@ Shop.Items["Base.M249"] = {
 	tab = Tab.Military, price = 22000,
 }	
 
-Shop.Items["Base.556box100"] = {
-	tab = Tab.Military, price = 2500,
-}	
 Shop.Items["Base.AssaultRifle"] = {
 	tab = Tab.Military, price = 6000,
 }
 
 Shop.Items["Base.AssaultRifle2"] = {
 	tab = Tab.Military, price = 4200,
-}
-
-Shop.Items["Base.556Clip"] = {
-	tab = Tab.Military, price = 450,
 }
 
 Shop.Items["Base.VarmintRifle"] = {

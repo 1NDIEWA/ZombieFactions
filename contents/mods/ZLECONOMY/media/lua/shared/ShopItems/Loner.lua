@@ -110,6 +110,26 @@
 		tab = Tab.Loner, price = 100,
 	}
 	
+	Shop.Items["Base.556box100"] = {
+		tab = Tab.Loner, price = 2500,
+	}	
+
+	Shop.Items["Base.556Clip"] = {
+		tab = Tab.Loner, price = 450,
+	}
+
+	Shop.Items["Base.762Clip"] = {
+		tab = Tab.Loner, price = 750, quantity = 1,
+	}
+	
+	Shop.Items["Base.Coupled762"] = {
+		tab = Tab.Loner, price = 890, quantity = 1,
+	}
+	
+	Shop.Items["Base.762Box"] = {
+		tab = Tab.Loner, price = 320, quantity = 1,
+	}
+	
 	Shop.Items["Base.ShotgunShellsBox"] = {
 		tab = Tab.Loner, price = 200,
 	}

@@ -1,4 +1,4 @@
-Shop.Items["BasementMod.BasementMag_large"] = {
+Shop.Items["BasementMod.BasementsMag_large"] = {
 	tab = Tab.Ecologist, price =150000,
 }
 

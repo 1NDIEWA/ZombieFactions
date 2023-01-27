@@ -2,7 +2,7 @@ Shop.Items["Base.M40GasMaskNoFilter"] = {
 	tab = Tab.Mercs, price = 760,
 }
 
-Shop.Items["BasementMod.BasementMag_small"] = {
+Shop.Items["BasementMod.BasementsMag_small"] = {
 	tab = Tab.Mercs, price =50000,
 }
 
@@ -24,6 +24,14 @@ Shop.Items["Base.PatchMercenaries"] = {
 
 Shop.Items["Base.SlingA"] = {
 	tab = Tab.Mercs, price = 1500,
+}
+
+Shop.Items["Base.KnuckleDuster"] = {
+	tab = Tab.Mercs, price = 200,
+}
+
+Shop.Items["Base.Kukri"] = {
+	tab = Tab.Mercs, price = 470,
 }
 
 Shop.Items["Base.Sling"] = {

@@ -126,20 +126,12 @@ Shop.Items["Base.Glock17Mag"] = {
 	tab = Tab.Duty, price =150,
 }
 
+Shop.Items["Base.CAR15D"] = {
+	tab = Tab.Duty, price =3200,
+}
+
 Shop.Items["Base.AK47"] = {
-	tab = Tab.Duty, price =1600,
-}
-
-Shop.Items["Base.762Clip"] = {
-	tab = Tab.Duty, price = 750, quantity = 1,
-}
-
-Shop.Items["Base.Coupled762"] = {
-	tab = Tab.Duty, price = 890, quantity = 1,
-}
-
-Shop.Items["Base.762Box"] = {
-	tab = Tab.Duty, price = 320, quantity = 1,
+	tab = Tab.Duty, price =1800,
 }
 
 Shop.Items["PinkSlip.gaztigr"] = {
