@@ -1,7 +1,7 @@
     Shop.Items["Onifurniture.BlackMetalBox"] = {
 		tab = Tab.Loner, price = 800,
 	}	
-
+-- Ru peed on this! 
 	Shop.Items["Base.Wallet"] = {
 		tab = Tab.Loner, price = 20,
 	}	
