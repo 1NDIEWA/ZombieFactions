@@ -377,7 +377,3 @@ Shop.Items["BatesMetalicos.Bgrip"] = {
 Shop.Items["BatesMetalicos.Bsock"] = {
 	tab = Tab.Bandits, price = 400,
 }
-
-Shop.Items["BatesMetalicos.MetalBaseballBat"] = {
-	tab = Tab.Bandits, price = 1500,
-}
