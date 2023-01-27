@@ -5,7 +5,7 @@
 	Shop.Items["Base.Wallet"] = {
 		tab = Tab.Loner, price = 20,
 	}	
-
+--Space Tbagged y'all
 	Shop.Items["Base.Canteenfull"] = {
 		tab = Tab.Loner, price = 145,
 	}	
