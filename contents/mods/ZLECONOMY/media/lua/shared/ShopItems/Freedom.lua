@@ -10,6 +10,10 @@ Shop.Items["SkillMag.SkillMagCarpentry"] = {
 	tab = Tab.Freedom, price = 10000 ,
 }
 
+Shop.Items["BatesMetalicos.MetalBaseballBat"] = {
+	tab = Tab.Bandits, price = 1500,
+}
+
 Shop.Items["PinkSlip.k153"] = {
 	tab = Tab.Freedom, price = 14000,
 }
