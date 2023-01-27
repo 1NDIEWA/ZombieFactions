@@ -50,6 +50,10 @@ Shop.Items["Base.939Clip10"] = {
 	tab = Tab.Freedom, price = 950,
 }
 
+Shop.Items["Base.Car15D"] = {
+	tab = Tab.Freedom, price = 1500,
+}
+
 Shop.Items["Base.556Clip"] = {
 	tab = Tab.Freedom, price = 320,
 }
@@ -194,6 +198,62 @@ Shop.Items["Base.windoffreedompants"] = {
 	tab = Tab.Freedom, price =250,
 }
 
+Shop.Items["Base.Bag_Savotta"] = {
+	tab = Tab.Freedom, price = 980,
+}
+
+Shop.Items["Base.Bag_ZIP"] = {
+	tab = Tab.Freedom, price = 1400,
+}
+
+Shop.Items["Base.Bag_Hazard_Cross"] = {
+	tab = Tab.Freedom, price = 759,
+}
+
+Shop.Items["Base.Hat_Raccoon"] = {
+	tab = Tab.Freedom, price = 50,
+}
+
+Shop.Items["Base.Hat_Sam_NV"] = {
+	tab = Tab.Freedom, price = 300,
+}
+
+Shop.Items["Base.Scarf_Mask_Camo_On"] = {
+	tab = Tab.Freedom, price = 300,
+}
+
+Shop.Items["Base.Scarf_Mask_Hunting_ON"] = {
+	tab = Tab.Freedom, price = 260,
+}
+
+Shop.Items["Base.Trench_Grenade_Pack"] = {
+	tab = Tab.Freedom, price = 450,
+}
+
+Shop.Items["Base.Trench_Ammo_Pack"] = {
+	tab = Tab.Freedom, price = 1100,
+}
+
+Shop.Items["Base.Trench_Tornister"] = {
+	tab = Tab.Freedom, price = 450,
+}
+
+Shop.Items["Base.Bag_Bush"] = {
+	tab = Tab.Freedom, price = 800,
+}
+
+Shop.Items["Base.Bag_Sniper_Suit"] = {
+	tab = Tab.Freedom, price = 950,
+}
+
+Shop.Items["Base.Bushcraft_Bag"] = {
+	tab = Tab.Freedom, price = 850,
+}
+
+Shop.Items["Base.Bag_D3M"] = {
+	tab = Tab.Freedom, price = 1200,
+}
+
 Shop.Items["Greenfire.SpaceBlunt"] = {
 	tab = Tab.Freedom, price = 150 ,
 }
@@ -250,65 +310,7 @@ Shop.Items["Base.Mov_PaintingBetty"] = {
 	tab = Tab.Freedom, price = 450,
 }
 
-Shop.Items["Base.Bag_Savotta"] = {
-	tab = Tab.Freedom, price = 980,
-}
 
-Shop.Items["Base.Bag_ZIP"] = {
-	tab = Tab.Freedom, price = 1400,
-}
-
-Shop.Items["Base.Bag_Hazard_Cross"] = {
-	tab = Tab.Freedom, price = 759,
-}
-
-Shop.Items["Base.Hat_Raccoon"] = {
-	tab = Tab.Freedom, price = 50,
-}
-
-Shop.Items["Base.Hat_Sam_NV"] = {
-	tab = Tab.Freedom, price = 300,
-}
-
-Shop.Items["Base.Scarf_Mask_Camo_On"] = {
-	tab = Tab.Freedom, price = 300,
-}
-
-Shop.Items["Base.Scarf_Mask_Hunting_ON"] = {
-	tab = Tab.Freedom, price = 260,
-}
-
-Shop.Items["Base.Trench_Grenade_Pack"] = {
-	tab = Tab.Freedom, price = 450,
-}
-
-Shop.Items["Base.Trench_Ammo_Pack"] = {
-	tab = Tab.Freedom, price = 1100,
-}
-
-Shop.Items["Base.Trench_Tornister"] = {
-	tab = Tab.Freedom, price = 450,
-}
-
-Shop.Items["Base.Bag_Bush"] = {
-	tab = Tab.Freedom, price = 800,
-}
-
-Shop.Items["Base.Bag_Sniper_Suit"] = {
-	tab = Tab.Freedom, price = 950,
-}
-
-Shop.Items["Base.Car15D"] = {
-	tab = Tab.Freedom, price = 1500,
-}
-
-Shop.Items["Base.Bushcraft_Bag"] = {
-	tab = Tab.Freedom, price = 850,
-}
-
-Shop.Items["Base.Bag_D3M"] = {
-	tab = Tab.Freedom, price = 1200,
-}
 
 
 
