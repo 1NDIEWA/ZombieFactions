@@ -72,7 +72,8 @@ Shop.Sell = {
 	["Base.GuitarElectricBlue"] = { price = 90, faction = {"Bandits", "Freedom"} },
 	["Base.GuitarElectricRed"] = { price = 150, faction = {"Bandits", "Freedom"} },
 	["Base.Trumpet"] = { price = 120, faction = {"Bandits", "Freedom"} },
-	["Base.GuitarAcoustic"] = { price = 120, faction = {"Bandits", "Freedom"} },
+	["Base.GuitarAcoustic"] = { price = 120, faction = {"Bandits"} },
+	["Base.GuitarAcoustic"] = { price = 420, faction = {"Freedom"} },
 
 
 	-- Mercs
