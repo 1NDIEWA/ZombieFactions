@@ -174,6 +174,10 @@ Shop.Items["PinkSlip.Trailer"] = {
 	tab = Tab.Ecologist, price =2500,
 }
 
+Shop.Items["PinkSlip.RidingMower"] = {
+	tab = Tab.Ecologist, price =15000,
+}
+
 Shop.Items["PinkSlip.HEMTTFuel"] = {
 	tab = Tab.Ecologist, price =40000,
 }
