@@ -34,10 +34,6 @@ Shop.Items["Base.Scarf_Red"] = {
 	tab = Tab.Hobo, price = 10,
 }
 
-Shop.Items["Base.Hat_Raccoon"] = {
-	tab = Tab.Hobo, price = 50,
-}
-
 Shop.Items["Base.Socks"] = {
 	tab = Tab.Hobo, price = 10,
 }
