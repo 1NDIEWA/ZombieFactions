@@ -198,4 +198,6 @@
 		tab = Tab.Loner, price = 99,
 	}
 
-	
+	Shop.Items["PinkSlip.RidingMower"] = {
+		tab = Tab.Loner, price = 15000,
+	}
