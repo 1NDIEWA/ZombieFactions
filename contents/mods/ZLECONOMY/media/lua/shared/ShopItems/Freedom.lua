@@ -55,7 +55,7 @@ Shop.Items["Base.939Clip10"] = {
 }
 
 Shop.Items["Base.Car15D"] = {
-	tab = Tab.Freedom, price = 1500,
+	tab = Tab.Freedom, price = 6000,
 }
 
 Shop.Items["Base.556Clip"] = {
