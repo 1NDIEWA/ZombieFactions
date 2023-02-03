@@ -306,6 +306,13 @@ Shop.Items["Base.Mov_PaintingBetty"] = {
 	tab = Tab.Freedom, price = 450,
 }
 
+Shop.Items["Base.Mov_MannequinFemale"] = {
+	tab = Tab.Freedom, price = 1000,
+}
+
+Shop.Items["Base.Mov_MannequinMale"] = {
+	tab = Tab.Freedom, price = 1000,
+}
 
 
 
