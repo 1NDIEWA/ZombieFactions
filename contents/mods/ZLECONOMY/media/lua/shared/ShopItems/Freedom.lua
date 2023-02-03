@@ -11,7 +11,7 @@ Shop.Items["SkillMag.SkillMagCarpentry"] = {
 }
 
 Shop.Items["BatesMetalicos.MetalBaseballBat"] = {
-	tab = Tab.Bandits, price = 1500,
+	tab = Tab.Freedom, price = 1500,
 }
 
 Shop.Items["PinkSlip.k153"] = {
@@ -54,7 +54,7 @@ Shop.Items["Base.939Clip10"] = {
 	tab = Tab.Freedom, price = 950,
 }
 
-Shop.Items["Base.Car15D"] = {
+Shop.Items["Base.CAR15D"] = {
 	tab = Tab.Freedom, price = 6000,
 }
 
