@@ -14,6 +14,10 @@ Shop.Items["BatesMetalicos.MetalBaseballBat"] = {
 	tab = Tab.Freedom, price = 1500,
 }
 
+Shop.Items["Base.FunMetalBaseballBat"] = {
+	tab = Tab.Freedom, price = 2000,
+}
+
 Shop.Items["PinkSlip.k153"] = {
 	tab = Tab.Freedom, price = 14000,
 }
@@ -36,10 +40,6 @@ Shop.Items["PinkSlip.86Bounder"] = {
 
 Shop.Items["PinkSlip.ATA_SchoolBus"] = {
 	tab = Tab.Freedom, price = 40000,
-}
-
-Shop.Items["Base.M16A2"] = {
-	tab = Tab.Freedom, price = 4000,
 }
 
 Shop.Items["Base.SV98"] = {
@@ -268,6 +268,10 @@ Shop.Items["Greenfire.GFGrinder"] = {
 
 Shop.Items["Greenfire.Bong_black"] = {
 	tab = Tab.Freedom, price = 1200,
+}
+
+Shop.Items["Greenfire.GFMystery1"] = {
+	tab = Tab.Freedom, price = 10000,
 }
 
 Shop.Items["Greenfire.RollingPapers"] = {
