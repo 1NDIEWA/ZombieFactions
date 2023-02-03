@@ -57,14 +57,13 @@ function ShopSellAction:perform()
         z = shopSquare:getZ(),
     }
     if SandboxVars.Shops.SellLog then Nfunction.logShop(coords,"Sell") end
-    local playerInv = self.character:getInventory()
-    if total > 0 then
-        playerInv:AddItems(Currency.BaseCoin,total);
+
+    -- Instantly transfer coins to account instead of the old physical coins moving into inventory
+    if total > 0 or totalSpecial > 0 then 
+        sendClientCommand("BS", "Deposit", {total, totalSpecial})
+        self.character:playSound("CashRegister") 
     end
-    if totalSpecial > 0 then
-        playerInv:AddItems(Currency.SpecialCoin,totalSpecial);
-    end
-    if total > 0 or totalSpecial > 0 then self.character:playSound("CashRegister") end
+    
     self.shopUI.cartItems:clear()
     ISBaseTimedAction.perform(self)
 end

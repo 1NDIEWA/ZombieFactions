@@ -278,15 +278,33 @@ function ShopUI:onActivateView()
             local isBroken = item:isBroken()
             local playerFaction = Faction.getPlayerFaction(getPlayer())
             local playerFactionName = playerFaction and playerFaction:getName() 
-            if itemSell and itemSell.faction then
-              -- Check if playerFactionName is in the list of allowed factions for the item
-              local allowed = false
-              for _, allowedFaction in pairs(itemSell.faction) do
-                if allowedFaction == playerFactionName then
-                  allowed = true
-                  break
+
+            if itemSell then
+                
+                -- Initialise nil variables so that we can assign their values during the for loop
+                local itemSellFaction = nil
+                local itemSellLoner = nil
+
+                for i, pairSet in ipairs(itemSell) do
+                    -- We assign the value pre-emptively, in case the players' faction isn't found (which is always the case if the player is a Loner)
+                    -- So that later on we can display the correct corresponding price
+                    -- We HAVE to use the [1] index value of faction, since this is an array (which the code further onwards only will accept or throw errors)
+                    if pairSet.faction[1] == playerFactionName then
+                        itemSellFaction = pairSet
+                        break
+                    elseif pairSet.faction[1] == "Loner" then
+                        itemSellLoner = pairSet
+                    end                    
                 end
-              end
+        
+                -- Now we assign itemSell to the correct found price, faction pair
+                if itemSellFaction ~= nil then
+                    itemSell = itemSellFaction
+                elseif itemSellLoner ~= nil then
+                    itemSell = itemSellLoner
+                end	
+
+              local allowed = true
               if allowed and not (item:isEquipped() or item:isFavorite() or Currency.Coins[itemType]) then
                 local v = {}
                 v.type = itemType
