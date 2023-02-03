@@ -278,7 +278,9 @@ function ShopUI:onActivateView()
             local isBroken = item:isBroken()
             local playerFaction = Faction.getPlayerFaction(getPlayer())
             local playerFactionName = playerFaction and playerFaction:getName() 
+
             if itemSell then
+                
                 -- Initialise nil variables so that we can assign their values during the for loop
                 local itemSellFaction = nil
                 local itemSellLoner = nil
@@ -286,6 +288,7 @@ function ShopUI:onActivateView()
                 for i, pairSet in ipairs(itemSell) do
                     -- We assign the value pre-emptively, in case the players' faction isn't found (which is always the case if the player is a Loner)
                     -- So that later on we can display the correct corresponding price
+                    -- We HAVE to use the [1] index value of faction, since this is an array (which the code further onwards only will accept or throw errors)
                     if pairSet.faction[1] == playerFactionName then
                         itemSellFaction = pairSet
                         break
