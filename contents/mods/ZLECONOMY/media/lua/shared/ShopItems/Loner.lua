@@ -10,8 +10,36 @@
 		tab = Tab.Loner, price = 145,
 	}	
 
+	Shop.Items["Base.CraftedFishingRod"] = {
+		tab = Tab.Loner, price = 120,
+	}
+
+	Shop.Items["Base.Vityaz"] = {
+		tab = Tab.Loner, price = 2500,
+	}
+
+	Shop.Items["Base.9mmClip302"] = {
+		tab = Tab.Loner, price = 350,
+	}
+
 	Shop.Items["AuthenticZClothing.AuntheticGlowstick_Green"] = {
 		tab = Tab.Loner, price = 45,
+	}	
+
+	Shop.Items["Base.OvercoatWhiteDOWN"] = {
+		tab = Tab.Loner, price = 260,
+	}	
+
+	Shop.Items["Base.SunriseVest2"] = {
+		tab = Tab.Loner, price = 800,
+	}	
+
+	Shop.Items["Base.Wolf_Plate_Carrier_B"] = {
+		tab = Tab.Loner, price = 1600,
+	}	
+
+	Shop.Items["Base.Kelvin_Jacket"] = {
+		tab = Tab.Loner, price = 600,
 	}	
 
 	Shop.Items["Radio.WalkieTalkie4"] = {
@@ -45,13 +73,41 @@
 	Shop.Items["Base.RespiratorSilverNoFilter"] = {
 	    tab = Tab.Loner, price = 230,
     }
+
+	Shop.Items["Base.GP5GasMask"] = {
+		tab = Tab.Loner, price = 250,
+	}
+
+	Shop.Items["stim.StimpackLoaded"] = {
+		tab = Tab.Loner, price = 250,
+	}
 	
+	Shop.Items["stim.StimpackCapsule"] = {
+		tab = Tab.Loner, price = 120,
+	}
+
 	Shop.Items["Base.GasMaskFilter"] = {
 		tab = Tab.Loner, price = 250,
 	}
 	
 	Shop.Items["Base.Vest_BulletCivilian"] = {
 		tab = Tab.Loner, price =200 ,
+	}
+
+	Shop.Items["AuthenticZClothing.Bag_ALICEpack_Tier_1"] = {
+		tab = Tab.Loner, price = 350,
+	}
+
+	Shop.Items["AuthenticZClothing.Bag_ALICEpack_Tier_2"] = {
+		tab = Tab.Loner, price = 500,
+	}
+
+	Shop.Items["AuthenticZClothing.Bag_ALICEpack_Tier_3"] = {
+		tab = Tab.Loner, price = 780,
+	}
+
+	Shop.Items["Base.SteelHelm"] = {
+		tab = Tab.Loner, price = 340,
 	}
 	
 	Shop.Items["Base.Revolver_Short"] = {
@@ -196,4 +252,32 @@
 
 	Shop.Items["Base.Battery"] = {
 		tab = Tab.Loner, price = 99,
+	}
+
+	Shop.Items["Base.Mov_AntiqueStove"] = {
+		tab = Tab.Loner, price = 650,
+	}
+
+	Shop.Items["ColorCrates.CrateBlack"] = {
+		tab = Tab.Loner, price = 250,
+	}
+
+	Shop.Items["ColorCrates.CrateWhite"] = {
+		tab = Tab.Loner, price = 250,
+	}
+
+	Shop.Items["Base.Mov_Lamp2"] = {
+		tab = Tab.Loner, price = 90,
+	}
+
+	Shop.Items["Base.Mov_ChromeSink"] = {
+		tab = Tab.Loner, price = 200,
+	}
+
+	Shop.Items["Onifurniture.Fr1dge"] = {
+		tab = Tab.Loner, price = 450,
+	}
+
+	Shop.Items["Base.Mov_WaterDispenser"] = {
+		tab = Tab.Loner, price = 750,
 	}

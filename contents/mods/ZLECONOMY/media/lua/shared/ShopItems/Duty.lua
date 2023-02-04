@@ -14,6 +14,10 @@ Shop.Items["SkillMag.SkillMagAmmoReloading"] = {
 	tab = Tab.Duty, price = 10000,
 }
 
+Shop.Items["AuthenticZClothing.Jacket_StraightJacket"] = {
+	tab = Tab.Duty, price = 125,
+}	
+
 Shop.Items["SkillMag.SkillMagHunting"] = {
 	tab = Tab.Duty, price = 10000,
 }
@@ -119,7 +123,7 @@ Shop.Items["Base.G17"] = {
 }
 
 Shop.Items["Base.IceHockeyStick"] = {
-	tab = Tab.Duty, price =230,
+	tab = Tab.Duty, price =280,
 }
 
 Shop.Items["Base.Glock17Mag"] = {

@@ -1,6 +1,6 @@
 version=1
-id=2912581192
-title=XXXTABLE
-description=This is test
+id=2927900979
+title=STALKERTRADER
+description=A patch of Noir's Nshops mod, with additional functionality added for Z-LIFE's Stalker Roleplay Server.
 tags=Build 41;Misc
 visibility=public

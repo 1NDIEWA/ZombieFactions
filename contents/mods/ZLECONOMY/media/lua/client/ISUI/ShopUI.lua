@@ -1,7 +1,6 @@
 ----local playerFaction = character:getFaction() ??
         --local playerFaction = Faction.getPlayerFaction(getPlayer()) -- Returns Faction object
         --local playerFactionName = playerFaction and playerFaction:getName() or nil -- Returns factions name
-
 local Nfunction = require "Nfunction"
 ShopUI = ISCollapsableWindow:derive("ShopUI");
 ShopUI.instance = nil;
@@ -24,7 +23,7 @@ local previewBtn = Shop.textures.PreviewButton;
 local cartImg = Shop.textures.Cart;
 local width = 995
 local height = 550
-
+        
 function ShopUI:show(player,viewMode,shop)
     local square = player:getSquare()
     posX = square:getX()
@@ -117,11 +116,11 @@ end
 
 function ShopUI:onMouseMove(dx, dy)
     self.mouseOver = true;
-	if self.moving then
-		self:setX(self.x + dx);
-		self:setY(self.y + dy);
-		self:bringToTop();
-	end
+    if self.moving then
+        self:setX(self.x + dx);
+        self:setY(self.y + dy);
+        self:bringToTop();
+    end
     if ShopUI.instance.panel.activeView.view.shopItems:isMouseOver() then return end
     if ShopUI.instance.cartItems:isMouseOver() then return end
     ShopUI.instance:toggleTooltip(false)
@@ -135,7 +134,7 @@ end
 function ShopUI:onMouseDownCartItem(x, y)
     ISScrollingListBox.onMouseDown(self,x, y)
     if PreviewUI.instance then PreviewUI.instance:close() end
-	if self.selectedRow then
+    if self.selectedRow then
         local selectedRow = self.items[self.selectedRow]
         if not selectedRow then return end
         if self.previewBtn then
@@ -144,7 +143,7 @@ function ShopUI:onMouseDownCartItem(x, y)
             return
         end
         if self.removeBtn then
-		    ShopUI.instance:removeFromCart(selectedRow)
+            ShopUI.instance:removeFromCart(selectedRow)
         end
     end
 end
@@ -193,8 +192,8 @@ function ShopUI:onMouseMoveCartItem(dx, dy)
     list.selectedRow = nil
     list.previewBtn = nil
     list.removeBtn = nil
-	if list:isMouseOverScrollBar() or not list:isMouseOver() then ShopUI.instance:toggleTooltip(false) return end
-	local rowIndex = list:rowAt(list:getMouseX(), list:getMouseY())
+    if list:isMouseOverScrollBar() or not list:isMouseOver() then ShopUI.instance:toggleTooltip(false) return end
+    local rowIndex = list:rowAt(list:getMouseX(), list:getMouseY())
     if not rowIndex then ShopUI.instance:toggleTooltip(false) return end
     local selectedRow = list.items[rowIndex]
     if not selectedRow then ShopUI.instance:toggleTooltip(false) return end
@@ -264,10 +263,10 @@ function ShopUI:onActivateView()
         shopItems:clear()
     
         if not self.viewMode then
-          self.sellCartButton.enable = false
-          self.sellCartButton:setVisible(true)
-          self.buyCartButton.enable = false
-          self.buyCartButton:setVisible(false)
+            self.sellCartButton.enable = false
+            self.sellCartButton:setVisible(true)
+            self.buyCartButton.enable = false
+            self.buyCartButton:setVisible(false)
         end
     
         local inventory = character:getInventory():getItems()
@@ -304,21 +303,21 @@ function ShopUI:onActivateView()
                     itemSell = itemSellLoner
                 end	
 
-              local allowed = true
-              if allowed and not (item:isEquipped() or item:isFavorite() or Currency.Coins[itemType]) then
+                local allowed = true
+                if allowed and not (item:isEquipped() or item:isFavorite() or Currency.Coins[itemType]) then
                 local v = {}
                 v.type = itemType
                 local price = Shop.defaultPrice
                 if isBroken then
-                  price = Shop.defaultPriceBroken
+                    price = Shop.defaultPriceBroken
                 end
                 if itemSell then
-                  v.specialCoin = itemSell.specialCoin
-                  if isBroken then
+                    v.specialCoin = itemSell.specialCoin
+                    if isBroken then
                     price = itemSell.priceBroken or Shop.defaultPriceBroken
-                  else
+                    else
                     price = itemSell.price or Shop.defaultPrice
-                  end
+                    end
                 end
                 v.priceFull = price
                 price = Nfunction.drainablePrice(item, price)
@@ -326,26 +325,26 @@ function ShopUI:onActivateView()
                 v.id = item:getID()
                 v.name = Nfunction.trimString(item:getName(), 42)
                 v.invItem = item
-          
+            
                 if price > 0 then
-                  if Shop.SellisWhitelist then
+                    if Shop.SellisWhitelist then
                     if itemSell then
-                      shopItems:addItem(itemType, v)
+                        shopItems:addItem(itemType, v)
                     end
-                  else
+                    else
                     shopItems:addItem(itemType, v)
                 end
-              end
+                end
             end
-          end
+            end
         end
-      else
+        else
         if self.sellCartButton then
-          self.sellCartButton.enable = false
-          self.sellCartButton:setVisible(false)
-          self.buyCartButton:setVisible(true)
+            self.sellCartButton.enable = false
+            self.sellCartButton:setVisible(false)
+            self.buyCartButton:setVisible(true)
         end
-      end
+    end
 
     if tabType == Tab.Favorite then
         shopItems:clear()
@@ -658,7 +657,7 @@ function ShopUI:updateTotal()
 end
 
 function ShopUI:close()
-	ISCollapsableWindow.close(self);
+    ISCollapsableWindow.close(self);
     if PreviewUI.instance then PreviewUI.instance:close() end
     ShopUI.instance:removeFromUIManager()
     ShopUI.instance = nil

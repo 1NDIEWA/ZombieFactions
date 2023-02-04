@@ -1,6 +1,4 @@
-Shop.Items["Base.CraftedFishingRod"] = {
-	tab = Tab.Hobo, price = 200,
-}
+
 
 Shop.Items["Base.Grasshopper"] = {
 	tab = Tab.Hobo, price = 20,

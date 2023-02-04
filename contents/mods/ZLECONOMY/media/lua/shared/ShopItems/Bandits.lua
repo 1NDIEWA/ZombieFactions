@@ -10,8 +10,8 @@ Shop.Items["SkillMag.SkillMagBlunt"] = {
 	tab = Tab.Bandits, price = 900 ,
 }
 
-Shop.Items["SkillMag.SkillMagBlade"] = {
-	tab = Tab.Bandits, price = 900,
+Shop.Items["Base.Bandit_Leather_Jacket"] = {
+	tab = Tab.Bandits, price = 220,
 }
 
 Shop.Items["SkillMag.SkillMagSneaking"] = {
