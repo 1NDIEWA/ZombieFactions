@@ -11,7 +11,11 @@ Shop.Items["SkillMag.SkillMagCarpentry"] = {
 }
 
 Shop.Items["BatesMetalicos.MetalBaseballBat"] = {
-	tab = Tab.Bandits, price = 1500,
+	tab = Tab.Freedom, price = 1500,
+}
+
+Shop.Items["Base.FunMetalBaseballBat"] = {
+	tab = Tab.Freedom, price = 2000,
 }
 
 Shop.Items["PinkSlip.k153"] = {
@@ -38,10 +42,6 @@ Shop.Items["PinkSlip.ATA_SchoolBus"] = {
 	tab = Tab.Freedom, price = 40000,
 }
 
-Shop.Items["Base.M16A2"] = {
-	tab = Tab.Freedom, price = 4000,
-}
-
 Shop.Items["Base.SV98"] = {
 	tab = Tab.Freedom, price = 9500,
 }
@@ -54,7 +54,7 @@ Shop.Items["Base.939Clip10"] = {
 	tab = Tab.Freedom, price = 950,
 }
 
-Shop.Items["Base.Car15D"] = {
+Shop.Items["Base.CAR15D"] = {
 	tab = Tab.Freedom, price = 6000,
 }
 
@@ -270,6 +270,10 @@ Shop.Items["Greenfire.Bong_black"] = {
 	tab = Tab.Freedom, price = 1200,
 }
 
+Shop.Items["Greenfire.GFMystery1"] = {
+	tab = Tab.Freedom, price = 10000,
+}
+
 Shop.Items["Greenfire.RollingPapers"] = {
 	tab = Tab.Freedom, price = 5,
 }
@@ -306,6 +310,13 @@ Shop.Items["Base.Mov_PaintingBetty"] = {
 	tab = Tab.Freedom, price = 450,
 }
 
+Shop.Items["Base.Mov_MannequinFemale"] = {
+	tab = Tab.Freedom, price = 1000,
+}
+
+Shop.Items["Base.Mov_MannequinMale"] = {
+	tab = Tab.Freedom, price = 1000,
+}
 
 
 

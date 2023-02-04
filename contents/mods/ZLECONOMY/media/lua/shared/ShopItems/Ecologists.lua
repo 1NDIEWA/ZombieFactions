@@ -170,6 +170,10 @@ Shop.Items["Base.SEVAGloves"] = {
 	tab = Tab.Ecologist, price =175,
 }
 
+Shop.Items["Base.OMNI_bag"] = {
+	tab = Tab.Ecologist, price =500
+}
+
 Shop.Items["PinkSlip.Trailer"] = {
 	tab = Tab.Ecologist, price =2500,
 }
